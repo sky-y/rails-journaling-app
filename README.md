@@ -105,7 +105,7 @@ config/webpack/environment.js:
 const { environment } = require('@rails/webpacker')
 
 // ここから
-// jQueryとBootstapのJSを使えるように
+// BootstapのJS(popper.js)を使えるように
 const webpack = require('webpack')
 environment.plugins.prepend(
   'Provide',
@@ -141,7 +141,7 @@ import '../stylesheets/application';
 app/views/layouts/application.html.erb:
 
 ```erb
-<%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-<%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'application', media: 'all' %>
+<%= javascript_pack_tag 'application' %>
 ```
 
