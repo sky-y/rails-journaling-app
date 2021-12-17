@@ -6,4 +6,8 @@
 import Rails from "@rails/ujs"
 import "channels"
 
+// 追加
+import 'bootstrap';
+import '../stylesheets/application';
+
 Rails.start()
