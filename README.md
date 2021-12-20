@@ -145,3 +145,7 @@ app/views/layouts/application.html.erb:
 <%= javascript_pack_tag 'application' %>
 ```
 
+## ジャーナリングのお題出典
+
+- [ジャーナリングを一か月続けてみて得られた変化とお題31選。 - じぶんつむぎ](http://mytsumugi.com/journaling-challenge)
+- [ジャーナリング - マインドフルに生きていこう](https://m-ini.com/journaling/)
