@@ -1,5 +1,5 @@
 FROM ruby:3.0
-RUN apt-get update -qq && apt-get install -y build-essential
+RUN apt-get update -qq && apt-get install -y build-essential default-mysql-client
 WORKDIR /app
 
 # install nodejs(LTS)
